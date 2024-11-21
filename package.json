@@ -1,0 +1,37 @@
+{
+  "name": "eslint-plugin-json-spellchecker",
+  "version": "1.0.1",
+  "description": "fix typo in your json file",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r22n/eslint-plugin-json-spellchecker.git"
+  },
+  "keywords": [
+    "eslint",
+    "spell",
+    "checker",
+    "typo",
+    "json"
+  ],
+  "author": "r22n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r22n/eslint-plugin-json-spellchecker/issues"
+  },
+  "homepage": "https://github.com/r22n/eslint-plugin-json-spellchecker#readme",
+  "devDependencies": {
+    "@eslint/json": "^0.7.0",
+    "@humanwhocodes/momoa": "^3.3.3",
+    "@typescript-eslint/utils": "^8.15.0",
+    "eslint": "^9.15.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "change-case": "^5.4.4",
+    "typo-js": "^1.2.4"
+  }
+}
